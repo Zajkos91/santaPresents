@@ -1,0 +1,25 @@
+<h2>Children list</h2>
+
+<ul>
+    {{#each childrenList}}
+        <li><label>{{this.name}}
+            <select>
+            <option value="">Brak</option>
+            {{#each ../giftsList}}
+            <option value="{{this.name}}">{{this.name}}</option>
+            {{/each}}
+        </select>
+        </label>
+        <button>Save</button>
+        </li>
+    {{/each}}
+</ul>
+
+<h2>Add child to List</h2>
+<form action="">
+    <label>
+        Name:
+        <input type="text">
+        <button>Add</button>
+    </label>
+</form>

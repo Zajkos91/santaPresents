@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+    background-color: lightgray;
+}
+h1 {
+    color: red;
+}
+
+img {
+    font-size: 36px;
+    width: 300px;
+
+}
+.img {
+    position: relative;
+    text-align: center;
+}
+.cookie-preview {
+    width: 601px;
+    height: 640px;
+    text-align: center;
+    position: relative;
+    margin: 15px auto;
+
+}
+
+ul {
+    margin: 15px auto;
+    text-align: center;
+}
+li {
+    display: block;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+    font-weight: bold;
+}
+
+button {
+    background-color: steelblue;
+    border: 1px solid black;
+    height: 30px;
+    border-radius: 10px;
+    /*display: inline-block;*/
+}
+.btn-disabled {
+    background-color: dimgrey;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.error {
+    border: 1px solid red;
+    background-color: rgba(232, 176, 176, 0.83);
+}
+.success {
+    border: 1px solid #034103;
+    background-color: rgba(187, 218, 176, 0.83);
+}
